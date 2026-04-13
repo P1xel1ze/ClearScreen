@@ -1,7 +1,7 @@
 name: ClearScreen
 author: P1xel1ze
 main: au.p1xel1ze.Cls
-version: 0.2
+version: 1.0
 description: Clears the server console
 api-version: 1.21
 commands:
