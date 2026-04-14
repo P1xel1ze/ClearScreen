@@ -1,4 +1,4 @@
-package au.p1xel1ze;
+package au.p1xel1ze.cls;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -10,10 +10,11 @@ import net.minecrell.terminalconsole.TerminalConsoleAppender;
 import org.jline.terminal.Terminal;
 import org.jline.utils.InfoCmp;
 
-public class Cls extends JavaPlugin {
+public class BukkitSpigot extends JavaPlugin {
    public void onEnable() {
       getCommand("cls").setExecutor(this);
       this.log("[ClearScreen] §bClearScreen enabled");
+      this.log("[ClearScreen] §bRun `cls` to clear the console");
    }
 
    public void onDisable() {
