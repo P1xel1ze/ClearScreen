@@ -27,6 +27,12 @@ public class Velocity {
             server.getCommandManager().metaBuilder("cls").plugin(this).build(),
             new ClsCommand(logger)
         );
+        logger.info("ClearScreen enabled");
+        logger.info("Run `cls` to clear the console");
+    }
+    @Subscribe
+    public void onProxyShutdown(ProxyShutdownEvent event) {
+        logger.info("ClearScreen disabled");
     }
     // The command class itself
     static public class ClsCommand implements SimpleCommand {
