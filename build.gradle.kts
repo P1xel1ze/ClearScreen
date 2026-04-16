@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "au.p1xel1ze"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -25,6 +25,7 @@ dependencies {
     compileOnly("org.jline:jline-terminal:3.27.1")
     compileOnly("com.velocitypowered:velocity-api:3.5.0-SNAPSHOT")
     annotationProcessor("com.velocitypowered:velocity-api:3.5.0-SNAPSHOT")
+    compileOnly("net.md-5:bungeecord-api:1.21-R0.4")
 }
 
 java {
