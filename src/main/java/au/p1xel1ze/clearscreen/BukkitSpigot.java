@@ -1,4 +1,4 @@
-package au.p1xel1ze.cls;
+package au.p1xel1ze.clearscreen;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -31,6 +31,7 @@ public class BukkitSpigot extends JavaPlugin {
             Terminal terminal = TerminalConsoleAppender.getTerminal();
             terminal.writer().write("\033[2J\033[H\033[3J");
             terminal.puts(InfoCmp.Capability.clear_screen);
+            terminal.writer().write("\n> ");
             terminal.flush();
             return true;
          } else {
