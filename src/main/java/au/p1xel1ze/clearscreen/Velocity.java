@@ -12,7 +12,7 @@ import com.velocitypowered.api.proxy.ConsoleCommandSource;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 
-@Plugin(name = "ClearScreen", id = "clearscreen", description = "Clears the server console", version = "1.0.1", authors = {"P1xel1ze"})
+@Plugin(name = "ClearScreen", id = "clearscreen", description = "Clears the server console", version = "1.0.2", authors = {"P1xel1ze"})
 public class Velocity {
     private final ProxyServer server;
     private final Logger logger;

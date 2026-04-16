@@ -1,7 +1,7 @@
 name: ClearScreen
 author: P1xel1ze
 main: au.p1xel1ze.clearscreen.BukkitSpigot
-version: 1.0.1
+version: 1.0.2
 description: Clears the server console
 api-version: 1.21
 commands:
