@@ -11,6 +11,7 @@ import com.velocitypowered.api.command.CommandSource;
 import com.velocitypowered.api.proxy.ConsoleCommandSource;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
+import com.velocitypowered.api.event.proxy.ProxyShutdownEvent;
 
 @Plugin(name = "ClearScreen", id = "clearscreen", description = "Clears the server console", version = "1.0.2", authors = {"P1xel1ze"})
 public class Velocity {
