@@ -1,4 +1,4 @@
-package au.p1xel1ze.cls;
+package au.p1xel1ze.clearscreen;
 
 import com.velocitypowered.api.plugin.Plugin;
 import com.velocitypowered.api.proxy.ProxyServer;
