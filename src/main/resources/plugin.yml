@@ -1,6 +1,7 @@
 name: ClearScreen
 author: P1xel1ze
 main: au.p1xel1ze.clearscreen.BukkitSpigot
+website: https://modrinth.com/plugin/clearscreen
 version: 1.0.2
 description: Clears the server console
 api-version: 1.21
