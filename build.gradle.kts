@@ -24,7 +24,6 @@ dependencies {
     compileOnly("net.minecrell:terminalconsoleappender:1.3.0")
     compileOnly("org.jline:jline-terminal:3.27.1")
     compileOnly("com.velocitypowered:velocity-api:3.5.0-SNAPSHOT")
-    annotationProcessor("com.velocitypowered:velocity-api:3.5.0-SNAPSHOT")
     compileOnly("net.md-5:bungeecord-api:1.21-R0.4")
 }
 
