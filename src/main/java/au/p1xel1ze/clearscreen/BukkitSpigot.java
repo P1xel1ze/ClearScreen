@@ -13,16 +13,16 @@ import org.jline.utils.InfoCmp;
 public class BukkitSpigot extends JavaPlugin {
    public void onEnable() {
       getCommand("cls").setExecutor(this);
-      this.log("[ClearScreen] §bClearScreen enabled");
-      this.log("[ClearScreen] §bRun `cls` to clear the console");
+      this.log("ClearScreen enabled");
+      this.log("Run `cls` to clear the console");
    }
 
    public void onDisable() {
-      this.log("[ClearScreen] §bClearScreen disabled");
+      this.log("ClearScreen disabled");
    }
 
    private void log(String message) {
-      Bukkit.getServer().getConsoleSender().sendMessage(message);
+      Bukkit.getServer().getConsoleSender().sendMessage("[ClearScreen] §b" + message);
    }
 
    public boolean onCommand(CommandSender sender, Command command, String commandLabel, String[] args) {
