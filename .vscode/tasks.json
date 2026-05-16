@@ -1,18 +1,30 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Gradle Build",
-            "type": "shell",
-            "command": "./gradlew build",
-            "windows": {
-                "command": ".\\gradlew.bat build"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "shell",
+      "isBackground": false,
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "windows": {
+        "command": ".\\gradlew.bat",
+        "args": ["build"]
+      },
+      "linux": {
+        "command": "./gradlew",
+        "args": ["build"]
+      },
+      "osx": {
+        "command": "./gradlew",
+        "args": ["build"]
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
 }
