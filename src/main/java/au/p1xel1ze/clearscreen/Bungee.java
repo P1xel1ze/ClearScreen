@@ -2,7 +2,6 @@ package au.p1xel1ze.clearscreen;
 
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.api.plugin.Command;
-import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.CommandSender;
 
 import org.jline.terminal.Terminal;
