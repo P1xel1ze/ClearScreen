@@ -5,5 +5,5 @@
 build
 bin
 
-# Ignore Kotlin plugin data
-.kotlin
+# VS Code settings
+.vscode/settings.json

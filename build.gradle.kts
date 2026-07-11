@@ -25,6 +25,7 @@ dependencies {
     compileOnly("org.jline:jline-terminal:3.27.1")
     compileOnly("com.velocitypowered:velocity-api:3.5.0-SNAPSHOT")
     compileOnly("net.md-5:bungeecord-api:1.21-R0.4")
+    compileOnly("org.spongepowered:spongeapi:11.0.0-SNAPSHOT")
 }
 
 java {
